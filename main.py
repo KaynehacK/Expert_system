@@ -296,7 +296,7 @@ def run_expert_system():
     if matches:
         print("Рекомендуемый метод рыбалки:\n")
         for match in matches:
-            print(f"👉 {match['name'].upper()}")
+            print(f"{match['name'].upper()}")
             print(f"Описание: {match['description']}\n")
     else:
         print(
